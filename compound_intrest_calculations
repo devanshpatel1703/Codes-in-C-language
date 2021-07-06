@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+int main() 
+{
+    float p,r,n,a,i=1,c,q;
+    for(i=1;i<=10;i++){
+        printf("Enter the value of p,r,n,q :");
+        scanf("%f%f%f%f",&p,&r,&n,&q);
+        a=pow((1+r/q),r*q);
+        r=p*a;
+        printf("amount :%f\n",r);
+        }
+    return 0;
+}

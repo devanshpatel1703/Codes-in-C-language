@@ -1,5 +1,5 @@
 #include <stdio.h>
-int hcf(int,int,int);
+int hcf(int,int);
 int main()
 {
     int n1,n2,gcd,t;

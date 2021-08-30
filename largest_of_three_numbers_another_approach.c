@@ -4,7 +4,7 @@ int main()
     int n1,n2,n3;
     printf("Enter three numbers :");
     scanf("%d %d %d",&n1,&n2,&n3);
-    if(n1==n3||n2==n3){
+    if((n1==n3)||(n2==n3)||(n1==n2)){
         printf("Their is no difference between 2 numbers");
     }
     if(n1>n2){
@@ -22,9 +22,6 @@ int main()
         if(n2<n3){
             printf("%d Is largest",n3);
         }
-    }
-    else{
-        printf("Their is no difference between 2 numbers");
     }
     return 0;
 }

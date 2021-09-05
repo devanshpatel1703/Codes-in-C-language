@@ -3,7 +3,7 @@
 int main() 
 {
     int a,i=1;
-    printf("Input two numbers(integer):");
+    printf("Input a number :");
     scanf("%d",&a);
     for(i=1;i<=a-1;i++){
         printf("%d,",i);

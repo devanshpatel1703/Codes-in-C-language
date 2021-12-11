@@ -2,6 +2,7 @@
 int main()
 {
     int i,j,r,k,temp,row;
+    printf("test-line");
     printf("Enter the value of rows and column :");
     scanf("%d",&r);
     row=r;

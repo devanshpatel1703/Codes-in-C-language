@@ -20,35 +20,35 @@ int main()
     if(product==3){
         if(amount<50000){
             if(customer==1){
-                printf("The amount you have to pay is : %f",amount*0.05);
+                printf("The amount you have to pay is : %.1f",amount*0.05+amount);
             }
             else if(customer==2){
-                printf("The amount you have to pay is : %f",amount*0.065);
+                printf("The amount you have to pay is : %.1f",amount*0.065+amount);
             }
             else if(customer==3){
-                printf("The amount you have to pay is : %f",amount*0.075);
+                printf("The amount you have to pay is : %.1f",amount*0.075+amount);
             }
         }
         else if(amount>=50000 && amount<100000){
             if(customer==1){
-                printf("The amount you have to pay is : %f",amount*0.075);
+                printf("The amount you have to pay is : %.1f",amount*0.075+amount);
             }
             else if(customer==2){
-                printf("The amount you have to pay is : %f",amount*0.085);
+                printf("The amount you have to pay is : %.1f",amount*0.085+amount);
             }
             else if(customer==3){
-                printf("The amount you have to pay is : %f",amount*0.075);
+                printf("The amount you have to pay is : %.1f",amount*0.075+amount);
             }
         }
         else if(amount>=100000){
             if(customer==1){
-                printf("The amount you have to pay is : %f",amount*0.1);
+                printf("The amount you have to pay is : %.1f",amount*0.1+amount);
             }
             else if(customer==2){
-                printf("The amount you have to pay is : %f",amount*0.1);
+                printf("The amount you have to pay is : %.1f",amount*0.1+amount);
             }
             else if(customer==3){
-                printf("The amount you have to pay is : %f",amount*0.075);
+                printf("The amount you have to pay is : %.1f",amount*0.075+amount);
             }
         }
     }
@@ -58,18 +58,18 @@ int main()
         }
         else if(amount>=10000){
             if(customer==1){
-                printf("The amount you have to pay is : %f",amount*0.5);
+                printf("The amount you have to pay is : %.1f",amount*0.5+amount);
             }
             else if(customer==2){
-                printf("The amount you have to pay is : %f",amount*0.6);
+                printf("The amount you have to pay is : %.1f",amount*0.6+amount);
             }
             else if(customer==3){
-                printf("The amount you have to pay is : %f",amount*0.5);
+                printf("The amount you have to pay is : %.1f",amount*0.5+amount);
             }
         }
     }
     else{
-        printf("The amount you have to pay is : %f",amount*0.1);
+        printf("The amount you have to pay is : %.1f",amount*0.1+amount);
     }
     return 0;
 }

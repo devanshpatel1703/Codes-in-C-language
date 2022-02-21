@@ -5,7 +5,7 @@ int main()
     int int_num;
     printf("Enter a number :");
     scanf("%f",&num);
-    printf("int_num is %d\n",int_num);
+    int_num=num;
     diffrence=num-int_num;
     if(diffrence==0){
         printf("The number is int type.");
